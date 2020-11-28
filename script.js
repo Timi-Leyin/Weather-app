@@ -59,7 +59,8 @@ window.addEventListener('load', () => {
         ---------------
         -------------*/
         fetch('http://api.openweathermap.org/data/2.5/weather?q=' + query.value + '&units=metric&appid=9cf934ea494bae788bf295d91572e588', {
-                method: 'get'
+                method: 'get',
+headers:{'Access-Control-Allow-Origin':'*' }
             }).then(res => {
                 return res.json()
             })
