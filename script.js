@@ -86,17 +86,17 @@ window.addEventListener('load', () => {
 
 });
 
-if(navigator.serviceWorker){
-    console.log('Service Worker Registering')
-    navigator.serviceWorker.register('./script.js').then(()=>{
-        console.log('Service Worker Registered')
-    }).catch((err)=>{
-        console.log(console.log(err))
-    })
-}
-else{
-    console.log('Your Browser Does not Support Service Worker')
-}
+// if(navigator.serviceWorker){
+//     console.log('Service Worker Registering')
+//     navigator.serviceWorker.register('./script.js').then(()=>{
+//         console.log('Service Worker Registered')
+//     }).catch((err)=>{
+//         console.log(console.log(err))
+//     })
+// }
+// else{
+//     console.log('Your Browser Does not Support Service Worker')
+// }
 
 
 // if(navigator.geolocation){
