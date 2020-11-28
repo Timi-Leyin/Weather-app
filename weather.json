@@ -1,0 +1,10 @@
+{
+    "coord":{"lon":8,"lat":10},
+    "weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04n"}],
+    "base":"stations",
+    "main":{"temp":21.75,"feels_like":23.87,"temp_min":21.75,"temp_max":21.75,"pressure":1013,"humidity":86,"sea_level":1013,"grnd_level":926},
+    "visibility":10000,"wind":{"speed":1.78,"deg":124},
+    "clouds":{"all":100},
+    "dt":1600461664,
+    "sys":{"country":"NG","sunrise":1600406252,"sunset":1600450001},
+    "timezone":3600,"id":2328926,"name":"Nigeria","cod":200}
